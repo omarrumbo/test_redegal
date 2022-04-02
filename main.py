@@ -1,5 +1,6 @@
 import pandas as pd
 import pandasql as ps
+import sys
 
 df = pd.read_csv('../examples/yellow_tripdata_2021-01.csv')
 zones = pd.read_csv('zones/taxi+_zone_lookup.csv')
